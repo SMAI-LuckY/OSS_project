@@ -22,7 +22,7 @@
 - 박예린(2311475)
 - 신소연(2311787)
 - 차서연(2314865)
-
+![팀원소개]https://github.com/SMAI-LuckY/OSS_project/blob/main/%ED%8C%80%EC%9B%90%EC%86%8C%EA%B0%9C.png
 
 ---
 
