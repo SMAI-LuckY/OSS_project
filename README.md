@@ -55,8 +55,6 @@
 해결 : keypoint의 형식을 맞추기 위해 주어진 keypoint를 사용하지 않고 직접 원천데이터에서 keypoint를 추출하고, 프레임별로 주어지는 point값들을 압축하기 위해 각 keypoint의 x, y, score 값을 매핑하여 하나의 이미지에 전체 프레임에 대한 정보를 담아 이를 학습시킴
 
 #### 6️⃣ 참고 및 출처
-
-https://github.com/DEVOCEAN-YOUNG-404/HandTalker 
 - https://github.com/DEVOCEAN-YOUNG-404/HandTalker
 - https://github.com/google-ai-edge/mediapipe
 - https://vrworld.tistory.com/12
