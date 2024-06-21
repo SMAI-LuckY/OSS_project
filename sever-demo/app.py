@@ -1,8 +1,6 @@
 #  Flask 모듈에서 Flask 클래스와 request 객체를 가져옵니다.
 # request 객체는 클라이언트로부터 요청을 받은 정보를 담고 있습니다
 from flask import Flask, request
-from text_to_speach import reason_to_text
-from speach_to_text import speach_to_text
 from werkzeug.utils import secure_filename
 import model
 
@@ -31,13 +29,6 @@ def upload_file():
         ilist = model.video_landmark_dic('./' + filename)
         print('ilist', ilist)
         # 모델에서 나온 텍스트를 음성으로 변환하는 함수 적용
-        sen_result = reason_to_text(ilist) # 일단 result 는 텍스트 파일
-        return sen_result
-        
-    elif real_file_type == 'mp3':
-        # 음성을 텍스트로 변환하는 함수 적용
-        text_result = speach_to_text(filename) # 일단 resilt 는 텍스트 파일
-
     else:
         print('파일이 제대로 넘어오지 않았습니다')
 
@@ -45,6 +36,5 @@ def upload_file():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-
 
 
