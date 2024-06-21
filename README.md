@@ -35,15 +35,21 @@
 ## 4. For Users
 
 #### 1️⃣ 프로젝트 구성
-#### 2️⃣ 저작권 및 사용권 정보
-#### 3️⃣ 버그 및 디버그
-#### 4️⃣ 참고 및 출처  
+
+#### 5️⃣ 버그 및 디버그
+
+키포인트 학습 트러블 슈팅
+
+문제 : 기존의계획은 AIHub에서 제공하는 keypoint를 사용해 모델을 학습시키고 결과값을 예측하려고 했으나, 동일한  영상에대해 mediapipe로 뽑은 keypoint와 Hub에서 제공하는 keypoint가 다르고, 프레임별로 keypoint가 존재하기 때문에 데이터의 양이 방대하여 학습에 많은 시간이 소요됨
+
+해결 : keypoint의 형식을 맞추기 위해 주어진 keypoint를 사용하지 않고 직접 원천데이터에서 keypoint를 추출하고, 프레임별로 주어지는 point값들을 압축하기 위해 각 keypoint의 x, y, score 값을 매핑하여 하나의 이미지에 전체 프레임에 대한 정보를 담아 이를 학습시킴
+
+#### 6️⃣ 참고 및 출처
+
+https://github.com/DEVOCEAN-YOUNG-404/HandTalker 
 - https://github.com/DEVOCEAN-YOUNG-404/HandTalker
 - https://github.com/google-ai-edge/mediapipe
 - https://vrworld.tistory.com/12
-
-#### 7️⃣ 버전 및 업데이트 정보
-#### 8️⃣ FAQ
 
  
 
