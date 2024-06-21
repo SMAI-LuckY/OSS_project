@@ -35,13 +35,13 @@
 ## 4. For Users
 
 #### 1️⃣ 프로젝트 구성
-- 아키텍쳐
-- 주요기능
-#### 2️⃣ 프로젝트 프로그램 설치방법
-#### 3️⃣ 프로젝트 프로그램 사용법
-#### 4️⃣ 저작권 및 사용권 정보
-#### 5️⃣ 버그 및 디버그
-#### 6️⃣ 참고 및 출처
+#### 2️⃣ 저작권 및 사용권 정보
+#### 3️⃣ 버그 및 디버그
+#### 4️⃣ 참고 및 출처  
+- https://github.com/DEVOCEAN-YOUNG-404/HandTalker
+- https://github.com/google-ai-edge/mediapipe
+- https://vrworld.tistory.com/12
+
 #### 7️⃣ 버전 및 업데이트 정보
 #### 8️⃣ FAQ
 
