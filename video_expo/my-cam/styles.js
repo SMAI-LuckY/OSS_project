@@ -4,7 +4,7 @@ const { width } = Dimensions.get('window');
 
 export const styles = StyleSheet.create({
     color:{
-        color:'#F4A608'
+        color:'#005AAA'
       },
     center:{
         textAlign:'center'
@@ -30,7 +30,7 @@ export const styles = StyleSheet.create({
       },
       button: {
         height: 50,
-        backgroundColor: '#F4A608',
+        backgroundColor: '#005AAA',
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 5,
@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
         flex: 1, // 버튼이 화면의 가로 길이를 차지하도록 함
         height: 50,
         lineHeight:50,
-        backgroundColor: '#F4A608',
+        backgroundColor: '#005AAA',
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 5,
